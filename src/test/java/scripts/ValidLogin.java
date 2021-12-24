@@ -9,7 +9,7 @@ import pages.LoginPage;
 
 public class ValidLogin extends BaseTest {
 	
-	@Test(priority = 1,groups="smoke")
+	@Test(priority = 1,groups={"smoke","login"})
 	public void testValidLogin() {
 //	    1. Enter Valid User Name
 		LoginPage loginPage=new LoginPage(driver);
